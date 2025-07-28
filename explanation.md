@@ -1,7 +1,7 @@
 Wallet Risk Scoring Model
 This document explains how a risk score (0-1000) is assigned to cryptocurrency wallets that interact with the Compound lending platform.
 
-1. How We Got the Data
+1. How I Got the Data
 I aimed to get real transaction data from the Compound protocol using The Graph, a tool that organizes blockchain information.
 
 Challenges: I tried to get data from Compound V2 and V3 on both Ethereum and Polygon networks. However, I couldn't get any live transaction data for the provided wallets. This happened because either these specific wallets didn't have activity on Compound or the public data access points (APIs) now require special keys.
